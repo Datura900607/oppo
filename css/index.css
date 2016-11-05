@@ -1,0 +1,686 @@
+/***********head**************/
+.head{
+    width: 100%;height: 37px;
+    background: #2b2b2b;
+    border-top: 3px solid #00925f;
+}
+.head_left a i{
+    width: 20px;height: 17px;
+    background: url("../images/oppo_sprite.png") no-repeat;
+    background-position: 0 0;
+    float: left;
+    margin: 10px 15px 0 1px;
+}
+.head_left a span{
+    width: 15px;height: 20px;
+    background: url("../images/oppo_sprite.png") no-repeat;
+    background-position: 0 -32px;
+    float: left;
+    margin: 10px 18px 0 0;
+}
+.head_left p{
+    font-size: 12px;
+    color: #008146;
+    float: left;
+    margin-top: 13px;
+    line-height: 100%;
+}
+.head_right{
+    height: 27px;
+    margin-top: 8px;
+    border-right: 1px solid #474747;
+}
+.head_right ul{
+    margin-right: -16px;
+}
+.head_right ul li{
+    height: 15px;
+    border-right: 1px solid #474747;
+    padding-right: 14px;
+    margin-right: 15px;
+    float: left;
+}
+.head_right ul li a{
+    font-size: 12px;
+    color: #b2b2a1;
+    float: left;
+    line-height: 100%;
+}
+.head_right ul li a:hover{
+    color: #409f73;
+}
+.head_right ul li span{
+    width: 17px;height: 16px;
+    background: url("../images/oppo_sprite.png") no-repeat;
+    background-position: 0 -72px;
+    cursor: pointer;
+    float: left;
+    margin-right: 8px;
+}
+/**********nav***************/
+.nav{
+    position: relative;
+    background: #fff;
+}
+.nav_content{
+    float: right;
+    margin-top: 39px;
+}
+.nav_content ul{
+    margin-right: -20px;
+}
+.nav_content ul li{
+    float: left;
+    margin-right: 40px;
+}
+.nav_content ul li a{
+    float: left;
+    font-size: 12px;
+    color: #2b2b2b;
+    font-weight: bold;
+    line-height: 100%;
+}
+.nav_logo{
+    width: 168px;height: 26px;
+    background: url("../images/oppo_sprite.png") no-repeat;
+    background-position: 0 -107px;
+    position: absolute;
+    top: 32px;left: 0;
+}
+/*************banner*****************/
+.banner{
+    width: 100%;height: 619px;
+    border-top: 1px solid #e1e1e1;
+    margin-top: 34px;
+}
+/************mobileType***************/
+.mobileType{
+    width: 100%;
+    background: #f2f2f2;
+    padding: 52px 0 60px 0;
+}
+.common{
+    text-align: center;
+}
+.common_border-t{
+    width: 90px;
+    margin: 0 auto 10px;
+    border: 1px solid #dadada;
+}
+.common a{
+    font-size: 29px;
+    color: #2b2b2b;
+}
+.common a i{
+    font-style: normal;
+    font-weight: bold;
+}
+.common_border-b{
+    width: 90px;
+    margin: 10px auto 16px;
+    border: 1px solid #dadada;
+}
+.common span{
+    font-size: 12px;
+    color: #878787;
+}
+.common span a{
+    font-size: 12px;
+    color: #58aa84;
+    margin-left: 15px;
+}
+.mobileType_list_list{
+    margin-top: 40px;
+}
+.mobileType_list_list ul{
+    margin-right: -10px;
+}
+.mobileType_list_list ul li{
+    width: 290px;
+    border-right: 1px solid #eaeaea;
+    margin-right: 9px;
+    float: left;
+}
+.mobileType_list_list ul li:nth-last-of-type(1){
+    margin-right: 0;
+    border-right: none;
+}
+.mobileType_list_list_content{
+    width: 280px;
+    border-bottom: 6px solid #dfdfdf;
+    text-align: center;
+    padding-bottom: 28px;
+}
+.mobileType_list_pic{
+    width: 280px; height: 435px;
+    background: #f7f7f7;
+}
+.mobileType_list_list ul li h4{
+    font-size: 17px;
+    color: #2b2b2b;
+    line-height: 100%;
+    margin-top: 28px;
+}
+.mobileType_list_list ul li p:nth-of-type(1){
+    font-size: 12px;
+    color: #b4b4b4;
+    line-height: 100%;
+    margin: 15px 0;
+}
+.mobileType_list_list ul li p:nth-of-type(2){
+    font-size: 12px;
+    color: #00925f;
+    line-height: 100%;
+}
+.mobileType_list_list ul li p:nth-of-type(2) a{
+    color: #00925f;
+    margin-left: 9px;
+    background: url("../images/buy_1.jpg") no-repeat right center;
+    padding-right: 22px;
+}
+/************mobilePats******************/
+.mobilePats_1{
+    width: 100%;
+    background: #f6f6f6;
+    padding-top: 44px;
+}
+.mobilePats_content{
+    margin-top: 40px;
+    padding-bottom: 50px;
+}
+.mobilePats_left{
+    width: 580px;
+    float: left;
+}
+.mobilePats_left .phoneCover{
+    width: 280px;
+    float: left;
+    background: #fff;
+    border-bottom: 5px solid #e1e1e1;
+    text-align: center;
+    margin-right: 20px;
+}
+.phoneCover a{
+    width: 194px;
+    display: block;
+    margin: 40px auto 0;
+}
+.phoneCover p:nth-of-type(1){
+    font-size: 14px;
+    color: #878787;
+    line-height: 100%;
+    margin-top: 43px;
+}
+.phoneCover h4{
+    font-size: 22px;
+    color: #575757;
+    line-height: 100%;
+    margin-top: 10px;
+}
+.phoneCover p:nth-of-type(2){
+    font-size: 12px;
+    color: #048d5f;
+    line-height: 100%;
+    margin:14px 0 35px 0;
+}
+.mobilePats_left .accesssory{
+    width: 210px;
+    float: left;
+    background: #fff;
+    border: 5px solid #eaeaea;
+    padding: 19px 30px 0;
+}
+.accesssory{
+    margin-bottom: 20px;
+}
+.accesssory h4{
+    font-size: 12px;
+    color: #576267;
+    text-align: center;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.accesssory_list{
+    padding: 13px 0 37px 0;
+    border-bottom: 1px solid #e6e6e6;
+}
+.accesssory_list_1{
+    width: 108px;
+    float: left;
+    margin-left: 11px;
+}
+.accesssory_list_1 li,.accesssory_list_2 li{
+    height: 18px;
+    background: url("../images/erji.png") no-repeat 0 center;
+    padding-left: 24px;
+    line-height: 18px;
+    margin-top: 15px;
+}
+.accesssory_list_1 li a,.accesssory_list_2 li a{
+    font-size: 12px;
+    color: #b2b2b2;
+}
+.accesssory_list_2{
+    width: 90px;
+    float: right;
+}
+.accesssory p{
+    height: 14px;
+    margin: 22px 0 24px 0;
+    text-align: center;
+}
+.accesssory p a{
+    font-size: 12px;
+    color: #00925f;
+    line-height: 14px;
+    background: url("../images/buy_1.jpg") no-repeat right 2px;
+    padding-right: 17px;
+}
+.power{
+    float: left;
+    padding: 12px 14px 0 16px;
+    background: #fff;
+    border-bottom: 5px solid #e1e1e1;
+    margin-bottom: 25px;
+}
+.power h4{
+    font-size: 14px;
+    color: #585858;
+    line-height: 100%;
+    text-align: center;
+    margin-top: 5px;
+}
+.power p{
+    font-size: 12px;
+    color: #108960;
+    line-height: 100%;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 30px;
+}
+.mobilePats_left .usb{
+    width: 573px;
+    padding: 23px 0 4px 7px;
+    float: left;
+    background: #fff;
+    border-bottom: 5px solid #e1e1e1;
+}
+.usb a{
+    float: left;
+}
+.usb p{
+    width: 236px;
+    float: left;
+    font-size: 14px;
+    color: #828282;
+    text-align: center;
+    line-height: 100%;
+    margin-top: 74px;
+}
+.usb h4{
+    width: 236px;
+    float: left;
+    font-size: 22px;
+    color: #575757;
+    line-height: 100%;
+    margin-top: 7px;
+    text-align: center;
+}
+.usb span{
+    width: 236px;
+    float: left;
+    font-size: 12px;
+    color: #008a57;
+    line-height: 100%;
+    margin-top: 14px;
+    text-align: center;
+}
+.mobilePats_right{
+    width: 580px;
+    float: right;
+}
+.flashParts{
+    width: 580px;
+    background: #fff;
+    float: left;
+    border-bottom: 5px solid #e1e1e1;
+    margin-bottom: 20px;
+}
+.flashParts p{
+    width: 348px;
+    float: left;
+    font-size: 17px;
+    color: #787878;
+    line-height: 100%;
+    margin-top: 110px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.flashParts h4{
+    width: 348px;
+    float: left;
+    font-size: 26px;
+    color: #6b6b6b;
+    line-height: 100%;
+    margin-top: 19px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.metalHeadset{
+    width: 280px;
+    float: left;
+    background: #fff;
+    border-bottom: 5px solid #e1e1e1;
+    margin-right: 20px;
+}
+.metalHeadset p{
+    width: 280px;
+    font-size: 14px;
+    color: #888888;
+    text-align: center;
+    line-height: 100%;
+    margin-top: 5px;
+}
+.metalHeadset h4{
+    width: 280px;
+    font-size: 21px;
+    color: #5b5b5b;
+    text-align: center;
+    line-height: 100%;
+    margin-top: 7px;
+}
+.metalHeadset span{
+    width: 280px;
+    font-size: 12px;
+    color: #00935f;
+    text-align: center;
+    line-height: 100%;
+    display: block;
+    margin: 14px 0 29px 0;
+}
+.oldHeadset{
+    width: 280px;
+    float: left;
+    background: #fff;
+    border-bottom: 5px solid #e1e1e1;
+    margin-bottom: 20px;
+}
+.oldHeadset h4,.bluetooth h4{
+    width: 280px;
+    font-size: 17px;
+    color: #646263;
+    text-align: center;
+    line-height: 100%;
+}
+.oldHeadset span{
+    width: 280px;
+    font-size: 12px;
+    color: #00935f;
+    text-align: center;
+    line-height: 100%;
+    display: block;
+    margin: 11px 0 33px 0;
+}
+.bluetooth{
+    width: 280px;
+    float: left;
+    background: #fff;
+    border-bottom: 5px solid #e1e1e1;
+}
+.bluetooth span{
+    width: 280px;
+    font-size: 12px;
+    color: #00935f;
+    text-align: center;
+    line-height: 100%;
+    display: block;
+    margin: 10px 0 35px 0;
+}
+/***********phoneOthers****************/
+.phoneOthers{
+    width: 100%;
+    background: #eaeaea;
+    border-top: 3px solid #d9d9d9;
+    padding-top: 40px;
+}
+.others_content{
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+.others_content_left{
+    width: 780px;
+}
+.others_content_left ul{
+    margin: 0 -20px -20px 0;
+}
+.others_content_left ul li{
+    width: 380px;
+    background: #fff;
+    float: left;
+    padding-top: 38px;
+    position: relative;
+    margin: 0 20px 20px 0;
+}
+.others_content_left ul li h4{
+    width: 380px;
+    font-size: 24px;
+    color: #292929;
+    text-align: center;
+    line-height: 100%;
+    margin-bottom: 10px;
+}
+.others_content_left ul li p{
+    width: 380px;
+    font-size: 17px;
+    color: #747474;
+    text-align: center;
+    line-height: 100%;
+    margin-bottom: 5px;
+}
+.others_content_left ul li a{
+    width: 263px;
+    display: block;
+    margin-left: 67px;
+}
+.others_content_left ul li .shade{
+    width: 100%;height: 5px;
+    background: rgba(220,225,224,.8);
+    position: absolute;
+    left: 0;bottom: 0;
+}
+.others_content_right{
+    width: 380px;
+    margin-left: 20px;
+}
+.tabControl{
+    width: 190px;height: 50px;
+    background: #dadada;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+.tabControl a{
+    font-size: 17px;
+    color: #a7a7a7;
+    line-height: 50px;
+}
+.active_border{
+    width: 190px;
+    border-top: 2px solid #00925f;
+    position: absolute;
+    left: 0;top: 0;
+    display:none;
+}
+.active_border:nth-of-type(1){
+    display: block;
+}
+.tab_active{
+    background: #fff;
+}
+.tab_noActive{
+    background: #dadada;
+}
+
+.others_content_right ul{
+    background: #fff;
+    float: left;
+    padding: 38px 30px;
+}
+.others_content_right ul li{
+    width: 320px;height: 90px;
+    background: #f6f6f6;
+    margin-bottom: 15px;
+}
+.others_content_right ul li a{
+    float: left;
+}
+.others_content_right ul li p{
+    width: 190px;
+    font-size: 12px;
+    margin: 18px 15px 0 15px;
+    float: left;
+}
+.others_content_right ul li p a{
+    color: #838383;
+}
+/*************foot********************/
+.foot{
+    width: 100%;
+    background: #fff;
+}
+.foot_top ul{
+    padding-top: 46px;
+    padding-bottom: 37px;
+}
+.foot_top ul li{
+    width: 183px;height: 37px;
+    background: url("../images/zhengpin.jpg") no-repeat 0 0;
+    padding-left: 53px;
+    padding-top: 4px;
+    float: left;
+}
+.foot_top ul li h4{
+    font-size: 17px;
+    color: #363636;
+    line-height: 100%;
+}
+.foot_top ul li p{
+    font-size: 12px;
+    color: #989898;
+    line-height: 100%;
+    margin-top: 4px;
+}
+.foot_bottom{
+    width: 100%;
+    border-top: 1px solid #eaeaea;
+}
+.foot_bottom_content{
+    padding-top: 30px;
+    padding-bottom: 59px;
+}
+.foot_bottom_content dl{
+    width: 188px;
+    float: left;
+}
+.about_us{
+
+}
+.about_us dt{
+    font-size: 13px;
+    color: #373737;
+    line-height: 100%;
+    font-weight: bold;
+    margin-bottom: 22px;
+}
+.about_us dd{
+    font-size: 12px;
+    background: url("../images/foot_point.jpg") no-repeat 0 center;
+    line-height: 100%;
+    font-weight: bold;
+    margin-bottom: 17px;
+    padding-left: 9px;
+}
+.about_us dd a{
+    color: #838383;
+}
+.foot_bottom_content .contactInfo dd:nth-of-type(1){
+    height: 20px;
+    background: url("../images/foot_sina.jpg") no-repeat 0 center;
+    line-height: 20px;
+    padding-left: 24px;
+}
+.foot_bottom_content .contactInfo dd:nth-of-type(2){
+    height: 20px;
+    background: url("../images/foot_tencent.jpg") no-repeat 0 center;
+    line-height: 18px;
+    padding-left: 24px;
+}
+.foot_bottom_content .contactInfo dd:nth-of-type(3){
+    height: 20px;
+    background: url("../images/foot_renren.jpg") no-repeat 0 center;
+    line-height: 18px;
+    padding-left: 24px;
+}
+.foot_bottom_content .contactInfo dd:nth-of-type(4){
+    height: 20px;
+    background: url("../images/foot_qqzone.jpg") no-repeat 0 center;
+    line-height: 20px;
+    padding-left: 24px;
+}
+.contactUs{
+    float: left;
+}
+.contactUs h3{
+    font-size: 13px;
+    color: #373737;
+    margin-bottom: 34px;
+    padding-left: 2px;
+}
+.contactUs_2{
+    background: url("../images/foot_phone.jpg") no-repeat 0 0;
+    padding-left: 57px;
+}
+.contactUs_3{
+    background: url("../images/foot-kefu.jpg") no-repeat 0 center;
+    padding-left: 57px;
+    margin-top: 21px;
+}
+.contactUs_2 p,.contactUs_3 p{
+    font-size: 20px;
+    color: #409f73;
+    line-height: 100%;
+}
+.contactUs_2 span,.contactUs_3 span{
+    font-size: 12px;
+    color: #576267;
+    display: block;
+    line-height: 100%;
+    margin-top: 12px;
+}
+.contactUs_3 p a{
+    color: #409f73;
+    background: url("../images/snajiao.jpg") no-repeat right center;
+    padding-right: 27px;
+}
+/**********footer**************/
+.footer{
+    width: 100%;
+    border-top: 5px solid #000;
+    background: #2b2b2b;
+    padding: 28px 0 30px 0;
+}
+.footer_content_left{
+    background: url("../images/footer_logo.jpg") no-repeat 0 0;
+    padding-left: 121px;
+    font-size: 12px;
+    color: #828282;
+}
+.footer_content_right span{
+    font-size: 12px;
+    margin-left: 40px;
+}
+.footer_content_right span a{
+    color: #e2e2e2;
+}

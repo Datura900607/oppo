@@ -1,0 +1,44 @@
+@charset "utf-8";
+	body,p,h1,h2,h3,h4,h5,h6,dl,dd,dt,form,input,textarea,th,td,select{
+		margin:0; 
+		padding:0;
+		/*-webkit-box-sizing:border-box;/* 浏览器对盒模型的解释与IE6相同 */
+		/*-moz-box-sizing:border-box;*//* 改动border与padding的值,都不会导致box总尺寸发生变化,也就不会打乱页面整体布局 */
+		/*box-sizing:border-box;*/
+	}
+	ol,ul{
+		list-style:none;
+		padding:0;margin:0;
+	}
+	a{
+		color:black;
+		text-decoration:none;
+	}
+	img{
+		border:none;
+		vertical-align:top;
+		display: block;
+	}
+	body,html{
+		font-size: 16px;
+		font-family:"Microsoft Yahei";
+	}
+	table { border-collapse:collapse; }
+	input,textarea { outline:none; }
+	textarea { resize:none; overflow:auto; }
+
+
+	.clearFix:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+	.clearFix{zoom:1;}
+
+	.fl{float: left;}
+	.fr{float: right;}
+
+	.wraper{
+		width: 1180px;
+		margin: 0 auto;
+	}
